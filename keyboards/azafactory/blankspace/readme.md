@@ -1,12 +1,12 @@
-# azafactory/blankspace
+# blankspace
 
-![azafactory/blankspace](imgur.com image replace me!)
+![blankspace](imgur.com image replace me!)
 
-*A short description of the keyboard/project*
+Custom, open-source FRLTKL keyboard from azafactory with split spacebar layout and per-key RGB lighting.
 
 * Keyboard Maintainer: [Abizar Faza](https://github.com/azaffaza)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+* Hardware Supported: open-source blankspace PCB at [azafactory](https://github.com/azaffaza/azafactory).
+* Hardware Availability: These PCBs are open-source so you can manufacture them by yourself or order from a factory.
 
 Make example for this keyboard (after setting up your build environment):
 
