@@ -4,6 +4,10 @@
     "maintainer": "azaffaza",
     "processor": "STM32F072",
     "bootloader": "stm32-dfu",
+	"build": {
+		"debounce_type": "sym_eager_pk",
+		"lto": true
+	},
     "usb": {
         "vid": "0xFEED",
         "pid": "0x2400",
@@ -21,7 +25,7 @@
         "cols": ["A10", "A9", "A8", "B15", "B14", "B13", "B12", "B11", "B10", "B0", "F1", "F0", "B2", "C15", "C14", "A13", "A14", "A15"],
         "rows": ["A7", "A6", "B1", "A5", "A4"]
     },
-    "url": "https://github.com/azaffaza/azafactory/tree/main/blankspace",
+    "url": "https://github.com/azaffaza/azafactory",
     "layouts": {
         "LAYOUT": {
             "layout": [
