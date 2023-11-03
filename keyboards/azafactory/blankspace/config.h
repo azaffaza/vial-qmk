@@ -1,12 +1,15 @@
-// Copyright 2023 Abizar Faza (@azaffaza)
-// SPDX-License-Identifier: GPL-2.0-or-later
+/* SPDX-License-Identifier: GPL-2.0-or-later */
 
 #pragma once
 
-/*
- * Feature disable options
- *  These options are also useful to firmware size reduction.
- */
-
+#define DYNAMIC_KEYMAP_LAYER_COUNT 3
 #define NO_ACTION_ONESHOT
 
+#define RGB_MATRIX_FRAMEBUFFER_EFFECTS
+#define RGB_MATRIX_KEYPRESSES
+
+#define I2C_DRIVER I2CD1
+#define I2C1_SCL_PIN B6
+#define I2C1_SCL_PAL_MODE 1
+#define I2C1_SDA_PIN B7
+#define I2C1_SDA_PAL_MODE 1
