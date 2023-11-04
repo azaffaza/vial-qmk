@@ -5,7 +5,7 @@
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 /*
            ┌───┐
-           │ B │  
+           │ G │  
        ┌───┼───┼───┐
        │ A │ B │ C │
        ├───┼───┼───┤
@@ -36,8 +36,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 /* Remove the following code if you do not enable it in your keymap (e.g. default keymap). */
 #if defined(ENCODER_MAP_ENABLE)
 const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
-	[0] = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU) }
-	[1] = { ENCODER_CCW_CW(KC_TRNS, KC_TRNS) }
+	[0] = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU) },
+	[1] = { ENCODER_CCW_CW(KC_TRNS, KC_TRNS) },
 	[2] = { ENCODER_CCW_CW(KC_TRNS, KC_TRNS) }
 };
 #endif

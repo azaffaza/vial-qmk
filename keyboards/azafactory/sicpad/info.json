@@ -2,7 +2,7 @@
     "manufacturer": "azafactory",
     "keyboard_name": "Sicpad",
     "maintainer": "azaffaza",
-    "processor": "STM32FXXX",
+    "processor": "STM32F072",
     "bootloader": "stm32-dfu",
     "board": "GENERIC_STM32_F072XB",
     "usb": {
@@ -17,8 +17,12 @@
         "encoder": true,
         "extrakey": true,
         "mousekey": true,
-        "nkro": true
+        "nkro": true,
+		"rgb_matrix": true
     },
+	"rgb_matrix": {
+		"driver": "ws2812"
+	},
     "encoder": {
         "rotary": [
             { "pin_a": "A13", "pin_b": "A14" }
@@ -26,7 +30,7 @@
     },
     "matrix_pins": {
         "direct": [
-			["B11"],
+			["B11", null, null],
 			["F0", "C15", "C14"],
 			["B8", "B6", "B3"]
 		]		
