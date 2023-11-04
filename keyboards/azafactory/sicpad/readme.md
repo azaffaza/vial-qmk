@@ -1,19 +1,19 @@
-# blankspace
+# sicpad
 
-![blankspace](imgur.com image replace me!)
+![sicpad](imgur.com image replace me!)
 
-Custom, open-source FRLTKL keyboard from azafactory with split spacebar layout and per-key RGB lighting.
+A typical 2x3 macropad with RGB per-key lighting and rotary encoder.
 
 * Keyboard Maintainer: [Abizar Faza](https://github.com/azaffaza)
-* Hardware Supported: Open-source blankspace PCB at [azafactory](https://github.com/azaffaza/azafactory).
+* Hardware Supported: Open-source sicpad PCB at [azafactory](https://github.com/azaffaza/azafactory).
 * Hardware Availability: These PCBs are open-source so you can manufacture them by yourself or order from a factory.
 
 Make example for this keyboard (after setting up your build environment):
 
-    make azafactory/blankspace:default
+    make azafactory/sicpad:default
 
 Flashing example for this keyboard:
 
-    make azafactory/blankspace:default:flash
+    make azafactory/sicpad:default:flash
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).

@@ -1,0 +1,47 @@
+{
+    "manufacturer": "azafactory",
+    "keyboard_name": "Sicpad",
+    "maintainer": "azaffaza",
+    "processor": "STM32F072",
+    "bootloader": "stm32-dfu",
+    "board": "GENERIC_STM32_F072XB",
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x2402",
+        "device_version": "1.0.0"
+    },
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "encoder": true,
+        "extrakey": true,
+        "mousekey": false,
+        "nkro": true
+    },
+    "encoder": {
+        "rotary": [
+            { "pin_a": "B7", "pin_b": "B6" }
+        ]
+    },
+    "diode_direction": "COL2ROW",
+    "matrix_pins": {
+        "rows": ["A3", "A6"],
+        "cols": ["A7", "A5", "A4"],
+		"direct": "A14"
+    },
+	
+    "url": "https://github.com/azaffaza/azafactory",
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                { "label": "Insert", "matrix": [0, 0], "x": 0, "y": 0 },
+                { "label": "Home", "matrix": [0, 1], "x": 1, "y": 0 },
+                { "label": "PgUp", "matrix": [0, 2], "x": 2, "y": 0 },
+                { "label": "Delete", "matrix": [1, 0], "x": 0, "y": 1 },
+                { "label": "End", "matrix": [1, 1], "x": 1, "y": 1 },
+                { "label": "PgDn", "matrix": [1, 2], "x": 2, "y": 1 }
+            ]
+        }
+    }
+}
