@@ -2,7 +2,7 @@
 
 ![blankspace](imgur.com image replace me!)
 
-A custom, open-source FRLTKL keyboard from azafactory with OLED display, fixed split spacebar layout and per-key RGB lighting.
+A custom, open-source FRLTKL keyboard with OLED display, fixed split spacebar layout and per-key RGB lighting.
 
 * Keyboard Maintainer: [Abizar Faza](https://github.com/azaffaza)
 * Hardware Supported: Open-source blankspace PCB at [azafactory](https://github.com/azaffaza/azafactory).
