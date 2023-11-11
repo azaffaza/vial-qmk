@@ -1,6 +1,6 @@
 {
     "manufacturer": "azafactory",
-    "keyboard_name": "blankspace",
+    "keyboard_name": "azafactory/blankspace",
     "maintainer": "azaffaza",
     "processor": "STM32F072",
     "bootloader": "stm32-dfu",
