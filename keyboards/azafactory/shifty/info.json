@@ -17,7 +17,7 @@
         "rows": ["B15", "A8", "A5", "B13", "B14"]
     },
     "processor": "STM32F072",
-    "board": "GENERIC_STM_F072XB",
+    "board": "GENERIC_STM32_F072XB",
     "url": "https://github.com/azaffaza/azafactory",
     "usb": {
         "device_version": "1.0.0",
