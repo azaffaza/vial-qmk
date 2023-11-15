@@ -1,6 +1,6 @@
 {
     "manufacturer": "Abizar Faza",
-    "keyboard_name": "azafactory/cmmpm",
+    "keyboard_name": "CMMPM",
     "maintainer": "azaffaza",
     "bootloader": "stm32-dfu",
     "diode_direction": "COL2ROW",
