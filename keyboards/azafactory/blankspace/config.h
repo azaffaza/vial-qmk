@@ -4,6 +4,7 @@
 
 #define DYNAMIC_KEYMAP_LAYER_COUNT 3
 #define NO_ACTION_ONESHOT
+#define FORCE_NKRO
 
 #define I2C_DRIVER I2CD1
 #define I2C1_SCL_PIN B6
