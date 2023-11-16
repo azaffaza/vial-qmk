@@ -1,2 +1,2 @@
-# This file intentionally left blank
 OLED_ENABLE = yes
+VELOCIKEY_ENABLE = yes
