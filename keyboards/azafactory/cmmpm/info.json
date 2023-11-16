@@ -4,6 +4,9 @@
     "maintainer": "azaffaza",
     "bootloader": "stm32-dfu",
     "diode_direction": "COL2ROW",
+	"build": {
+		"debounce_type": "asym_eager_defer_pk"
+    },
     "features": {
         "bootmagic": true,
         "command": false,

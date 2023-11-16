@@ -5,7 +5,6 @@
     "processor": "atmega32u4",
     "bootloader": "atmel-dfu",
 	"build": {
-		"debounce_type": "sym_eager_pk",
 		"lto": true
 	},
     "usb": {

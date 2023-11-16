@@ -5,7 +5,7 @@
     "processor": "STM32F072",
     "bootloader": "stm32-dfu",
 	"build": {
-		"debounce_type": "sym_eager_pk"
+		"debounce_type": "asym_eager_defer_pk"
 	},
     "usb": {
         "vid": "0xFEED",
