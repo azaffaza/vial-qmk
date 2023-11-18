@@ -22,8 +22,8 @@
     },
     "diode_direction": "COL2ROW",
     "matrix_pins": {
-        "cols": ["A10", "A9", "A8", "B15", "B14", "B13", "B12", "B11", "B10", "B0", "F1", "F0", "B2", "C15", "C14", "A13", "A14", "A15"],
-        "rows": ["A7", "A6", "B1", "A5", "A4"]
+        "cols": ["A10", "A9", "A8", "B15", "B14", "B13", "B12", "B11", "B10", "B2", "B1", "B0", "A7", "A6", "A5", "A13", "A14", "A15"] ,
+        "rows": ["A4", "A3", "A2", "F1", "B8"]
     },
     "url": "https://github.com/azaffaza/azafactory",
 	"rgb_matrix": {

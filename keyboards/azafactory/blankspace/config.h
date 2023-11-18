@@ -7,9 +7,7 @@
 #define FORCE_NKRO
 
 #define I2C_DRIVER I2CD1
-#define I2C1_SCL_PIN B6
 #define I2C1_SCL_PAL_MODE 1
-#define I2C1_SDA_PIN B7
 #define I2C1_SDA_PAL_MODE 1
 
 #define WS2812_PWM_DRIVER PWMD3  // default: PWMD2
@@ -18,7 +16,7 @@
 #define WS2812_DMA_STREAM STM32_DMA1_STREAM0  // DMA Stream for TIMx_UP, see the respective reference manual for the appropriate values for your MCU.
 #define WS2812_DMA_CHANNEL 1
 
-#define WS2812_DI_PIN B3
+#define WS2812_DI_PIN B4
 #define RGB_MATRIX_LED_COUNT 74
 #define RGB_MATRIX_FRAMEBUFFER_EFFECTS
 #define RGB_MATRIX_KEYPRESSES
