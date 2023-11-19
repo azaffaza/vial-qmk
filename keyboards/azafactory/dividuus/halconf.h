@@ -1,1 +1,0 @@
-#define HAL_USE_SIO TRUE
