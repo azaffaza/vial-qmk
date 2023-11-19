@@ -1,1 +1,1 @@
-# This file intentionally left blank
+VELOCIKEY_ENABLE = yes
