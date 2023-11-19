@@ -1,0 +1,118 @@
+{
+    "manufacturer": "azafactory",
+    "keyboard_name": "Dividuus",
+    "maintainer": "azaffaza",
+    "processor": "STM32F072",
+    "bootloader": "stm32-dfu",
+    "board": "GENERIC_STM32_F072XB",
+    "build": {
+		"debounce_type": "asym_eager_defer_pk"
+    },
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x2406",
+        "device_version": "1.0.0"
+    },
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": false,
+        "nkro": true
+    },
+    "diode_direction": "COL2ROW",
+    "matrix_pins": {
+        "cols": ["A15", "B3", "B4", "B5", "A4", "C15", "F0", null, null],
+        "rows": ["B6", "B7", "B8", "B9", "A10"]
+    },
+    "split": {
+        "enabled": true,
+        "matrix_pins": {
+            "right": {
+                "cols": ["C14", "C13", "A5", "A10", "A6", "A9", "A8", "B15", "B7"],
+                "rows": ["C15", "F0", "A4", "A7", "B6"]
+            }
+        },
+        "transport": {
+            "protocol": "serial_usart",
+            "sync_matrix_state": true
+        }
+    },
+    "url": "https://github.com/azaffaza/azafactory",
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                { "label": "Esc", "matrix": [0, 0], "x": 0, "y": 0 },
+                { "label": "!", "matrix": [0, 1], "x": 1, "y": 0 },
+                { "label": "@", "matrix": [0, 2], "x": 2, "y": 0 },
+                { "label": "#", "matrix": [0, 3], "x": 3, "y": 0 },
+                { "label": "$", "matrix": [0, 4], "x": 4, "y": 0 },
+                { "label": "%", "matrix": [0, 5], "x": 5, "y": 0 },
+                { "label": "^", "matrix": [0, 6], "x": 6, "y": 0 },
+                { "label": "&", "matrix": [5, 0], "x": 7.75, "y": 0 },
+                { "label": "*", "matrix": [5, 1], "x": 8.75, "y": 0 },
+                { "label": "(", "matrix": [5, 2], "x": 9.75, "y": 0 },
+                { "label": ")", "matrix": [5, 3], "x": 10.75, "y": 0 },
+                { "label": "_", "matrix": [5, 4], "x": 11.75, "y": 0 },
+                { "label": "+", "matrix": [5, 5], "x": 12.75, "y": 0 },
+                { "label": "~", "matrix": [5, 6], "x": 13.75, "y": 0 },
+                { "label": "Delete", "matrix": [5, 7], "x": 14.75, "y": 0 },
+                { "label": "PrtSc", "matrix": [5, 8], "x": 15.75, "y": 0 },
+                { "label": "Tab", "matrix": [1, 0], "w": 1.5, "x": 0, "y": 1 },
+                { "label": "Q", "matrix": [1, 2], "x": 1.5, "y": 1 },
+                { "label": "W", "matrix": [1, 3], "x": 2.5, "y": 1 },
+                { "label": "E", "matrix": [1, 4], "x": 3.5, "y": 1 },
+                { "label": "R", "matrix": [1, 5], "x": 4.5, "y": 1 },
+                { "label": "T", "matrix": [1, 6], "x": 5.5, "y": 1 },
+                { "label": "Y", "matrix": [6, 0], "x": 7.25, "y": 1 },
+                { "label": "U", "matrix": [6, 1], "x": 8.25, "y": 1 },
+                { "label": "I", "matrix": [6, 2], "x": 9.25, "y": 1 },
+                { "label": "O", "matrix": [6, 3], "x": 10.25, "y": 1 },
+                { "label": "P", "matrix": [6, 4], "x": 11.25, "y": 1 },
+                { "label": "{", "matrix": [6, 5], "x": 12.25, "y": 1 },
+                { "label": "}", "matrix": [6, 6], "x": 13.25, "y": 1 },
+                { "label": "|", "matrix": [6, 7], "w": 1.5, "x": 14.25, "y": 1 },
+                { "label": "PgUp", "matrix": [6, 8], "x": 15.75, "y": 1 },
+                { "label": "Caps Lock", "matrix": [2, 0], "w": 1.75, "x": 0, "y": 2 },
+                { "label": "A", "matrix": [2, 2], "x": 1.75, "y": 2 },
+                { "label": "S", "matrix": [2, 3], "x": 2.75, "y": 2 },
+                { "label": "D", "matrix": [2, 4], "x": 3.75, "y": 2 },
+                { "label": "F", "matrix": [2, 5], "x": 4.75, "y": 2 },
+                { "label": "G", "matrix": [2, 6], "x": 5.75, "y": 2 },
+                { "label": "H", "matrix": [7, 0], "x": 7.5, "y": 2 },
+                { "label": "J", "matrix": [7, 1], "x": 8.5, "y": 2 },
+                { "label": "K", "matrix": [7, 2], "x": 9.5, "y": 2 },
+                { "label": "L", "matrix": [7, 3], "x": 10.5, "y": 2 },
+                { "label": ":", "matrix": [7, 4], "x": 11.5, "y": 2 },
+                { "label": "\"", "matrix": [7, 5], "x": 12.5, "y": 2 },
+                { "label": "Enter", "matrix": [7, 7], "w": 2.25, "x": 13.5, "y": 2 },
+                { "label": "PgDn", "matrix": [7, 8], "x": 15.75, "y": 2 },
+                { "label": "Shift", "matrix": [3, 0], "w": 2.25, "x": 0, "y": 3 },
+                { "label": "Z", "matrix": [3, 2], "x": 2.25, "y": 3 },
+                { "label": "X", "matrix": [3, 3], "x": 3.25, "y": 3 },
+                { "label": "C", "matrix": [3, 4], "x": 4.25, "y": 3 },
+                { "label": "V", "matrix": [3, 5], "x": 5.25, "y": 3 },
+                { "label": "B", "matrix": [3, 6], "x": 6.25, "y": 3 },
+                { "label": "N", "matrix": [8, 0], "x": 8, "y": 3 },
+                { "label": "M", "matrix": [8, 1], "x": 9, "y": 3 },
+                { "label": "<", "matrix": [8, 2], "x": 10, "y": 3 },
+                { "label": ">", "matrix": [8, 3], "x": 11, "y": 3 },
+                { "label": "?", "matrix": [8, 4], "x": 12, "y": 3 },
+                { "label": "Shift", "matrix": [8, 6], "w": 1.75, "x": 13, "y": 3 },
+                { "label": "\u2191", "matrix": [8, 7], "x": 14.75, "y": 3 },
+                { "label": "Fn", "matrix": [8, 8], "x": 15.75, "y": 3 },
+                { "label": "Ctrl", "matrix": [4, 0], "w": 1.25, "x": 0, "y": 4 },
+                { "label": "Win", "matrix": [4, 1], "w": 1.25, "x": 1.25, "y": 4 },
+                { "label": "Alt", "matrix": [4, 2], "w": 1.25, "x": 2.5, "y": 4 },
+                { "matrix": [4, 4], "w": 2.75, "x": 3.75, "y": 4 },
+                { "matrix": [9, 1], "w": 2.25, "x": 8.5, "y": 4 },
+                { "label": "Alt", "matrix": [9, 3], "w": 1.5, "x": 10.75, "y": 4 },
+                { "label": "Ctrl", "matrix": [9, 5], "w": 1.5, "x": 12.25, "y": 4 },
+                { "label": "\u2190", "matrix": [9, 6], "x": 13.75, "y": 4 },
+                { "label": "\u2193", "matrix": [9, 7], "x": 14.75, "y": 4 },
+                { "label": "\u2192", "matrix": [9, 8], "x": 15.75, "y": 4 }
+            ]
+        }
+    }
+}
