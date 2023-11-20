@@ -2,9 +2,9 @@
     "manufacturer": "azafactory",
     "keyboard_name": "Sicpad",
     "maintainer": "azaffaza",
-    "processor": "STM32F072",
+    "processor": "STM32F042",
     "bootloader": "stm32-dfu",
-    "board": "GENERIC_STM32_F072XB",
+    "board": "GENERIC_STM32_F042X6",
 	"build": {
 		"debounce_type": "asym_eager_defer_pk"
     },
@@ -19,9 +19,14 @@
         "console": false,
         "encoder": true,
         "extrakey": true,
-        "mousekey": true,
+        "mousekey": false,
         "nkro": true,
-		"rgb_matrix": true
+        "rgb_matrix": true
+    },
+    "encoder": {
+        "rotary": [
+            { "pin_a": "F0", "pin_b": "F1" }
+        ]
     },
 	"rgb_matrix": {
 		"driver": "ws2812",
@@ -34,29 +39,25 @@
 			{ "flags": 4, "matrix": [2, 2], "x": 0, "y": 64 }
 		]
 	},
-    "encoder": {
-        "rotary": [
-            { "pin_a": "A13", "pin_b": "A14" }
-        ]
-    },
+    "diode_direction": "COL2ROW",
     "matrix_pins": {
         "direct": [
-			["B11", null, null],
-			["F0", "C15", "C14"],
-			["B8", "B6", "B3"]
-		]		
+            [null, "A14", null],
+            ["A2", "A3", "A4"],
+            ["A7", "A6", "A5"]
+        ]
     },
     "url": "https://github.com/azaffaza/azafactory",
     "layouts": {
         "LAYOUT": {
             "layout": [
-				{ "matrix": [0, 0], "x": 0, "y": 0 },
-                { "label": "Insert", "matrix": [1, 0], "x": 0, "y": 1 },
-                { "label": "Home", "matrix": [1, 1], "x": 1, "y": 1 },
-                { "label": "PgUp", "matrix": [1, 2], "x": 2, "y": 1 },
-                { "label": "Delete", "matrix": [2, 0], "x": 0, "y": 2 },
-                { "label": "End", "matrix": [2, 1], "x": 1, "y": 2 },
-                { "label": "PgDn", "matrix": [2, 2], "x": 2, "y": 2 }
+                { "matrix": [0, 0], "x": 1, "y": 0 },
+                { "label": "Insert", "matrix": [1, 0], "x": 0, "y": 1.25 },
+                { "label": "Home", "matrix": [1, 1], "x": 1, "y": 1.25 },
+                { "label": "PgUp", "matrix": [1, 2], "x": 2, "y": 1.25 },
+                { "label": "Delete", "matrix": [2, 0], "x": 0, "y": 2.25 },
+                { "label": "End", "matrix": [2, 1], "x": 1, "y": 2.25 },
+                { "label": "PgDn", "matrix": [2, 2], "x": 2, "y": 2.25 }
             ]
         }
     }
