@@ -6,7 +6,14 @@
 #define NO_ACTION_ONESHOT
 #define FORCE_NKRO
 
-#define WS2812_DI_PIN A13
+#define WS2812_SPI SPID2 // default: SPID1
+#define WS2812_SPI_MOSI_PAL_MODE 0 // MOSI pin "alternate function", see the respective datasheet for the appropriate values for your MCU. default: 5
+#define WS2812_SPI_SCK_PIN B13 // Required for F072, may be for others -- SCK pin, see the respective datasheet for the appropriate values for your MCU. default: unspecified
+#define WS2812_SPI_SCK_PAL_MODE 0 // SCK pin "alternate function", see the respective datasheet for the appropriate values for your MCU. default: 5
+//#define WS2812_SPI_USE_CIRCULAR_BUFFER // In case of flickering.
+//#define WS2812_SPI_DIVISOR 16 //Only divisors of 2, 4, 8, 16, 32, 64, 128 and 256 are supported by hardware.
+
+#define WS2812_DI_PIN B15
 #define RGB_MATRIX_LED_COUNT 6
 #define RGB_MATRIX_FRAMEBUFFER_EFFECTS
 #define RGB_MATRIX_KEYPRESSES
