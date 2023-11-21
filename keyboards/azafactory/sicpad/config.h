@@ -4,7 +4,6 @@
 
 #define DYNAMIC_KEYMAP_LAYER_COUNT 2
 #define NO_ACTION_ONESHOT
-#define FORCE_NKRO
 
 //RGB Matrix
 #define RGB_MATRIX_LED_COUNT 6
