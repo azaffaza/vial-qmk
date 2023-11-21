@@ -2,7 +2,7 @@
 
 ![sicpad](imgur.com image replace me!)
 
-A typical 2x3 macropad with per-key RGB lighting and a rotary encoder.
+A typical 2x3 macropad with per-key RGB lighting, RGB underglow, and a rotary encoder.
 
 * Keyboard Maintainer: [Abizar Faza](https://github.com/azaffaza)
 * Hardware Supported: Open-source Sicpad PCB at [azafactory](https://github.com/azaffaza/azafactory).
