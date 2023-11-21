@@ -21,10 +21,11 @@
         "extrakey": true,
         "mousekey": false,
         "nkro": true,
-        "rgb_matrix": true
+        "rgb_matrix": true,
+        "rgblight": true
     },
     "rgb_matrix": {
-		"driver": "ws2812",
+        "driver": "ws2812",
         "ws2812": "spi",
 		"layout": [
 			{ "flags": 4, "matrix": [1, 0], "x": 224, "y": 0 },
@@ -35,6 +36,25 @@
 			{ "flags": 4, "matrix": [2, 2], "x": 0, "y": 64 }
 		]
 	},
+    "rgblight": {
+        "driver": "apa102",
+        "animations": {
+            "breathing": true,
+            "rainbow_mood": true,
+            "rainbow_swirl": true,
+            "snake": true,
+            "knight": true,
+            "christmas": true,
+            "static_gradient": true,
+            "rgb_test": true,
+            "alternating": true,
+            "twinkle": true
+        }
+    },
+    "apa102": {
+        "clock_pin": "B3",
+        "data_pin": "B5"
+    },
     "encoder": {
         "rotary": [
             { "pin_a": "F0", "pin_b": "F1" }
