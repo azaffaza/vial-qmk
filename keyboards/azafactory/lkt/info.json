@@ -26,7 +26,8 @@
     "usb": {
         "device_version": "1.0.0",
         "pid": "0x2405",
-        "vid": "0xFEED"
+        "vid": "0xFEED",
+        "force_nkro": true
     },
 	"rgb_matrix": {
 		"driver": "ws2812",

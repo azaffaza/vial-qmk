@@ -4,7 +4,6 @@
 
 #define DYNAMIC_KEYMAP_LAYER_COUNT 1
 #define NO_ACTION_ONESHOT
-#define FORCE_NKRO
 
 #define WS2812_PWM_DRIVER PWMD1  // default: PWMD2
 #define WS2812_PWM_CHANNEL 3  // default: 2

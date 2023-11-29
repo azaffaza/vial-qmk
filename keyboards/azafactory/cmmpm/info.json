@@ -11,7 +11,8 @@
     "usb": {
         "vid": "0xFEED",
         "pid": "0x2404",
-        "device_version": "1.0.0"
+        "device_version": "1.0.0",
+        "force_nkro": true
     },
     "features": {
         "bootmagic": true,

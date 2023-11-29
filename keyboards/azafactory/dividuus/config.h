@@ -4,7 +4,6 @@
 
 #define DYNAMIC_KEYMAP_LAYER_COUNT 3
 #define NO_ACTION_ONESHOT
-#define FORCE_NKRO
 #define EE_HANDS
 
 #define SERIAL_USART_FULL_DUPLEX   // Enable full duplex operation mode.

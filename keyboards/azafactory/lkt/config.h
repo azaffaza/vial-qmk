@@ -5,7 +5,6 @@
 
 #define DYNAMIC_KEYMAP_LAYER_COUNT 3
 #define NO_ACTION_ONESHOT
-#define FORCE_NKRO
 
 #define WS2812_SPI SPID2 // default: SPID1
 #define WS2812_SPI_MOSI_PAL_MODE 0 // MOSI pin "alternate function".

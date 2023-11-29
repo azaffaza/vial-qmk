@@ -8,7 +8,11 @@
     "usb": {
         "vid": "0xFEED",
         "pid": "0x2407",
-        "device_version": "1.0.0"
+        "device_version": "1.0.0",
+        "force_nkro": true,
+        "shared_endpoint": {
+            "mouse": false
+        }
     },
     "stenography": {
         "enabled": true,
