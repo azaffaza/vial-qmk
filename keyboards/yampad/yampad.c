@@ -60,7 +60,7 @@ bool oled_task_kb(void) {
       (uint8_t)(rgblight_get_hue() / RGBLIGHT_HUE_STEP),
       (uint8_t)(rgblight_get_sat() / RGBLIGHT_SAT_STEP),
       (uint8_t)(rgblight_get_val() / RGBLIGHT_VAL_STEP));
-  oled_write(led_buf, false);
+  oled_write(led_buf, false); 
 
   return false;
 }

@@ -8,6 +8,18 @@
         "pid": "0x8369",
         "device_version": "0.0.1"
     },
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "nkro": true,
+        "lto": true,
+		"rgblight": true
+    },
+    "ws2812": {
+        "pin": "F4"
+    },
     "rgblight": {
         "led_count": 9,
         "animations": {
@@ -17,14 +29,10 @@
             "snake": true,
             "knight": true,
             "christmas": true,
-            "static_gradient": true,
             "rgb_test": true,
             "alternating": true,
             "twinkle": true
         }
-    },
-    "ws2812": {
-        "pin": "F4"
     },
     "matrix_pins": {
         "cols": ["B1", "B3", "B2", "B6"],
@@ -33,7 +41,6 @@
     "diode_direction": "COL2ROW",
     "processor": "atmega32u4",
     "bootloader": "caterina",
-    "debounce": 2,
     "layouts": {
         "LAYOUT": {
             "layout": [
