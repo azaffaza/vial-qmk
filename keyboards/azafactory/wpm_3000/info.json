@@ -1,13 +1,8 @@
 {
-    "manufacturer": "azafactory",
     "keyboard_name": "WPM-3000",
-    "maintainer": "azaffaza",
-    "url": "https://github.com/azaffaza/azafactory",
     "usb": {
-        "vid": "0xFEED",
         "pid": "0x2407",
-        "device_version": "1.0.0",
-        "force_nkro": true
+        "device_version": "1.0.0"
     },
     "stenography": {
         "enabled": true,

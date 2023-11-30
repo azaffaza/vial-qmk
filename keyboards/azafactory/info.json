@@ -1,0 +1,9 @@
+{
+    "manufacturer": "azafactory",
+    "maintainer": "azaffaza",
+    "url": "https://github.com/azaffaza/azafactory",
+    "usb": {
+        "vid": "0xFEED",
+        "force_nkro": true
+    }
+}

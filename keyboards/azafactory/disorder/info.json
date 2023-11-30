@@ -1,7 +1,5 @@
 {
-    "manufacturer": "Abizar Faza",
     "keyboard_name": "Disorder",
-    "maintainer": "azaffaza",
     "bootloader": "bootloadhid",
     "diode_direction": "COL2ROW",
     "features": {
@@ -16,11 +14,9 @@
         "rows": ["B0", "B1", "B2", "B3", "B4"]
     },
     "processor": "atmega32a",
-    "url": "https://github.com/azaffaza/azafactory",
     "usb": {
         "device_version": "1.0.0",
         "pid": "0x2403",
-        "vid": "0xFEED",
         "force_nkro": true
     },
     "layouts": {

@@ -1,12 +1,9 @@
 {
-    "manufacturer": "azafactory",
     "keyboard_name": "Sicpad",
-    "maintainer": "azaffaza",
     "processor": "STM32F072",
     "bootloader": "stm32-dfu",
     "board": "GENERIC_STM32_F072XB",
     "usb": {
-        "vid": "0xFEED",
         "pid": "0x2402",
         "device_version": "1.0.0"
     },
@@ -64,7 +61,6 @@
             ["A10", "A9", "A8"]
         ]
     },
-    "url": "https://github.com/azaffaza/azafactory",
     "layouts": {
         "LAYOUT": {
             "layout": [

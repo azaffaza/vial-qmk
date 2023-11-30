@@ -1,7 +1,5 @@
 {
-    "manufacturer": "azafactory",
     "keyboard_name": "LKT",
-    "maintainer": "azaffaza",
     "bootloader": "stm32-dfu",
     "diode_direction": "COL2ROW",
 	"build": {
@@ -22,12 +20,9 @@
     },
     "processor": "STM32F072",
     "board": "GENERIC_STM32_F072XB",
-    "url": "https://github.com/azaffaza/azafactory",
     "usb": {
         "device_version": "1.0.0",
-        "pid": "0x2405",
-        "vid": "0xFEED",
-        "force_nkro": true
+        "pid": "0x2405"
     },
 	"rgb_matrix": {
 		"driver": "ws2812",

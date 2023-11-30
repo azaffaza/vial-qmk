@@ -1,17 +1,13 @@
 {
-    "manufacturer": "azafactory",
     "keyboard_name": "blankspace",
-    "maintainer": "azaffaza",
     "processor": "STM32F072",
     "bootloader": "stm32-dfu",
 	"build": {
 		"debounce_type": "asym_eager_defer_pk"
 	},
     "usb": {
-        "vid": "0xFEED",
         "pid": "0x2400",
-        "device_version": "1.0.0",
-        "force_nkro": true
+        "device_version": "1.0.0"
     },
     "features": {
         "bootmagic": true,
@@ -26,7 +22,6 @@
         "cols": ["A10", "A9", "A8", "B15", "B14", "B13", "B12", "B11", "B10", "B2", "B1", "B0", "A7", "A6", "A5", "A13", "A14", "A15"] ,
         "rows": ["A4", "A3", "A2", "F1", "B8"]
     },
-    "url": "https://github.com/azaffaza/azafactory",
 	"rgb_matrix": {
 		"driver": "ws2812",
         "ws2812": "pwm",

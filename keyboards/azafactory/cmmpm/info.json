@@ -1,7 +1,5 @@
 {
-    "manufacturer": "azafactory",
     "keyboard_name": "CMMPM",
-    "maintainer": "azaffaza",
     "processor": "STM32F303",
     "bootloader": "stm32-dfu",
     "board": "GENERIC_STM32_F303XC",
@@ -9,10 +7,8 @@
 		"debounce_type": "asym_eager_defer_pk"
 	},
     "usb": {
-        "vid": "0xFEED",
         "pid": "0x2404",
-        "device_version": "1.0.0",
-        "force_nkro": true
+        "device_version": "1.0.0"
     },
     "features": {
         "bootmagic": true,
@@ -131,7 +127,6 @@
         "cols": ["A9", "B15", "B14", "B13", "B12", "B11", "B10", "B2", "B1", "B0", "A6", "A5", "A4", "A3", "C14", "C13", "B9", "B8"],
         "rows": ["A10", "A8", "A2", "A1", "A0", "C15"]
     },
-    "url": "https://github.com/azaffaza/azafactory",
     "layouts": {
         "LAYOUT": {
             "layout": [

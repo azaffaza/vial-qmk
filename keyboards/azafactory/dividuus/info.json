@@ -1,7 +1,5 @@
 {
-    "manufacturer": "azafactory",
     "keyboard_name": "Dividuus",
-    "maintainer": "azaffaza",
     "processor": "STM32F072",
     "bootloader": "stm32-dfu",
     "board": "GENERIC_STM32_F072XB",
@@ -9,10 +7,8 @@
 		"debounce_type": "asym_eager_defer_pk"
     },
     "usb": {
-        "vid": "0xFEED",
         "pid": "0x2406",
-        "device_version": "1.0.0",
-        "force_nkro": true
+        "device_version": "1.0.0"
     },
     "features": {
         "bootmagic": true,
@@ -40,7 +36,6 @@
             "sync_matrix_state": true
         }
     },
-    "url": "https://github.com/azaffaza/azafactory",
     "layouts": {
         "LAYOUT": {
             "layout": [
