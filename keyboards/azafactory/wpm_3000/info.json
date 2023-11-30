@@ -7,10 +7,7 @@
         "vid": "0xFEED",
         "pid": "0x2407",
         "device_version": "1.0.0",
-        "force_nkro": true,
-        "shared_endpoint": {
-            "mouse": false
-        }
+        "force_nkro": true
     },
     "stenography": {
         "enabled": true,
@@ -23,6 +20,7 @@
         "extrakey": false,
         "mousekey": false,
         "nkro": true,
+        "midi": false,
         "rgb_matrix": true
     },
 	"rgb_matrix": {
