@@ -2,7 +2,7 @@
 
 ![wpm-3000](imgur.com image replace me!)
 
-A standard steno keyboard. Be careful that there are two versions with STM32 embedded or Pro Micro as its MCU, please use the appropriate firmware.
+A basic steno keyboard. Do note that there are two versions available, one with Pro Micro and the other uses STM32 embedded MCU. Please use the appropriate firmware.
 
 * Keyboard Maintainer: [Abizar Faza](https://github.com/azaffaza)
 * Hardware Supported: Open-source WPM-3000 PCB at [azafactory](https://github.com/azaffaza/azafactory).
