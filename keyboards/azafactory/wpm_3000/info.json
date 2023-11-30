@@ -2,9 +2,7 @@
     "manufacturer": "azafactory",
     "keyboard_name": "WPM-3000",
     "maintainer": "azaffaza",
-    "processor": "STM32F072",
-    "bootloader": "stm32-dfu",
-    "board": "GENERIC_STM32_F072XB",
+    "url": "https://github.com/azaffaza/azafactory",
     "usb": {
         "vid": "0xFEED",
         "pid": "0x2407",
@@ -29,7 +27,6 @@
     },
 	"rgb_matrix": {
 		"driver": "ws2812",
-        "ws2812": "pwm",
         "layout": [
             { "flags": 4, "matrix": [0, 0], "x": 224, "y": 16 },
             { "flags": 4, "matrix": [0, 1], "x": 199, "y": 0 },
@@ -58,11 +55,6 @@
         ]
     },
     "diode_direction": "COL2ROW",
-    "matrix_pins": {
-        "cols": ["B11", "B15", "B2", "B1", "B10", "B0", "A7", "B14", "A13", "A14"],
-        "rows": ["A8", "B13", "A3"]
-    },
-    "url": "https://github.com/azaffaza/azafactory",
     "layouts": {
         "LAYOUT": {
             "layout": [
@@ -91,4 +83,5 @@
             ]
         }
     }
+
 }

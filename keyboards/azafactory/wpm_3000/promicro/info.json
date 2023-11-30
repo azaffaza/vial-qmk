@@ -1,0 +1,8 @@
+{
+    "development_board": "promicro",
+    "pin_compatible": "promicro",
+    "matrix_pins": {
+        "cols": ["F6", "B1", "D7", "F7", "D0", "C6", "D2", "D3", "F5", "F4"],
+        "rows": ["D1", "B4", "B5"]
+    }
+}
