@@ -53,7 +53,6 @@
             { "pin_a": "F0", "pin_b": "F1" }
         ]
     },
-    "diode_direction": "COL2ROW",
     "matrix_pins": {
         "direct": [
             [null, "B7", null],
