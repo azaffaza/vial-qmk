@@ -3,7 +3,8 @@
     "bootloader": "rp2040",
     "board": "GENERIC_RP_RP2040",
     "rgb_matrix": {
-        "driver": "vendor"
+        "driver": "ws2812",
+        "ws2812": "vendor"
 	},
     "apa102": {
         "clock_pin": "GP2",

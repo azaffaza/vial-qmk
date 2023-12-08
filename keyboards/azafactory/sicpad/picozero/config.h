@@ -7,3 +7,6 @@
 
 //RGB Underglow
 #define APA102_SPI SPID0
+
+#define NOP_FUDGE 0.4
+#define APA102_NOPS (100 / (1000000000L / (133 / 4)))
