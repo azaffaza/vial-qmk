@@ -1,0 +1,24 @@
+{
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "board": "GENERIC_RP_RP2040",
+    "rgb_matrix": {
+        "driver": "vendor"
+	},
+    "apa102": {
+        "clock_pin": "GP2",
+        "data_pin": "GP3"
+    },
+    "encoder": {
+        "rotary": [
+            { "pin_a": "GP4", "pin_b": "GP5" }
+        ]
+    },
+    "matrix_pins": {
+        "direct": [
+            [null, "GP27", null],
+            ["GP1", "GP10", "GP15"],
+            ["GP0", "GP9", "GP14"]
+        ]
+    }
+}

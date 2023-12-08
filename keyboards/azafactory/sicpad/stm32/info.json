@@ -1,0 +1,25 @@
+{
+    "processor": "STM32F072",
+    "bootloader": "stm32-dfu",
+    "board": "GENERIC_STM32_F072XB",
+    "rgb_matrix": {
+        "driver": "ws2812",
+        "ws2812": "spi"
+    },
+    "apa102": {
+        "clock_pin": "B3",
+        "data_pin": "B5"
+    },
+    "encoder": {
+        "rotary": [
+            { "pin_a": "F0", "pin_b": "F1" }
+        ]
+    },
+    "matrix_pins": {
+        "direct": [
+            [null, "B7", null],
+            ["A7", "A6", "A5"],
+            ["A10", "A9", "A8"]
+        ]
+    }
+}
